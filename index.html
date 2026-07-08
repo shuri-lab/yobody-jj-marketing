@@ -91,7 +91,7 @@
     <div class="li"><span class="sw" style="background:var(--measure);"></span> Measurement rail</div>
   </div>
 
-  <svg class="stage-svg" viewBox="0 0 1180 820" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vertical funnel. Content and ads from four angles converge into one quiz. The quiz diagnoses her and shows the fix, which makes the sale. An email gate turns every visitor into a tagged lead we own, which branches to a bring-back loop for non-buyers that feeds back to the top. A measurement rail on the left reads every stage. The same machine re-runs per coach.">
+  <svg class="stage-svg" viewBox="0 0 1180 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vertical funnel. Content and ads run several angles; each angle opens a landing page matched to that message, and all of them open the same quiz. The quiz reflects her own words back at a result gate with no pattern name; her email unlocks the full diagnosis, where the pattern lands and the real selling happens. A JJ demo is placement-tested, then the offer. Every visitor becomes a tagged lead we own, feeding a bring-back loop. A measurement rail reads every stage. The same machine re-runs per coach.">
   <defs>
     <linearGradient id="fun" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#e1785a"/><stop offset="0.55" stop-color="#c85f3d"/><stop offset="1" stop-color="#b5714e"/>
@@ -102,89 +102,98 @@
     <marker id="arrTeal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4d7a78"/></marker>
   </defs>
 
-  <!-- ===== ENTRY DOORS ===== -->
-  <text x="40" y="46" class="fig" font-size="14.5" font-weight="700" letter-spacing="1.3" fill="#a8a29a">CONTENT + ADS</text>
-  <text x="40" y="63" class="fig" font-size="14.5" font-weight="700" letter-spacing="1.3" fill="#a8a29a">MANY ANGLES</text>
-  <g class="fig" font-size="15.5" font-weight="600">
-    <rect x="40" y="86" width="250" height="44" rx="11" fill="#fff" stroke="#f0c9bb" stroke-width="1.5"/><rect x="40" y="86" width="5" height="44" rx="2.5" fill="#e1785a"/><text x="60" y="113" fill="#37342f">"Belly fat that won't budge"</text>
-    <rect x="40" y="150" width="250" height="44" rx="11" fill="#fff" stroke="#f0c9bb" stroke-width="1.5"/><rect x="40" y="150" width="5" height="44" rx="2.5" fill="#c85f3d"/><text x="60" y="177" fill="#37342f">"You've tried everything"</text>
-    <rect x="40" y="214" width="250" height="44" rx="11" fill="#fff" stroke="#f0c9bb" stroke-width="1.5"/><rect x="40" y="214" width="5" height="44" rx="2.5" fill="#b5714e"/><text x="60" y="241" fill="#37342f">"Weight sits at your middle"</text>
-    <rect x="40" y="278" width="250" height="44" rx="11" fill="#fff" stroke="#f0c9bb" stroke-width="1.5"/><rect x="40" y="278" width="5" height="44" rx="2.5" fill="#4d7a78"/><text x="60" y="305" fill="#37342f">"Coming off the shot"</text>
-  </g>
+  <!-- ===== ENTRY: angle -> adaptive landing page ===== -->
+  <text x="40" y="44" class="fig" font-size="14" font-weight="700" letter-spacing="1.3" fill="#a8a29a">CONTENT + ADS, SEVERAL ANGLES</text>
+  <text x="40" y="62" class="fig" font-size="13" fill="#b7b1a8">each angle opens a landing page that matches its message</text>
 
-  <!-- doors converge INTO funnel mouth (mouth top edge x430..830 at y168) -->
+  <g class="fig" font-size="14.5" font-weight="600">
+    <rect x="40" y="82" width="258" height="46" rx="11" fill="#fff" stroke="#f0c9bb" stroke-width="1.5"/><rect x="40" y="82" width="5" height="46" rx="2.5" fill="#e1785a"/><text x="62" y="103" fill="#37342f">"Why losing weight after</text><text x="62" y="120" fill="#37342f">40 feels impossible"</text>
+    <rect x="40" y="150" width="258" height="46" rx="11" fill="#fff" stroke="#f0c9bb" stroke-width="1.5"/><rect x="40" y="150" width="5" height="46" rx="2.5" fill="#c85f3d"/><text x="62" y="171" fill="#37342f">"You've tried everything,</text><text x="62" y="188" fill="#37342f">here's what nobody checked"</text>
+    <rect x="40" y="218" width="258" height="46" rx="11" fill="#fff" stroke="#f0c9bb" stroke-width="1.5"/><rect x="40" y="218" width="5" height="46" rx="2.5" fill="#b5714e"/><text x="62" y="239" fill="#37342f">"Why the weight sits at</text><text x="62" y="256" fill="#37342f">your middle now"</text>
+    <rect x="40" y="286" width="258" height="46" rx="11" fill="#fff" stroke="#f0c9bb" stroke-width="1.5"/><rect x="40" y="286" width="5" height="46" rx="2.5" fill="#4d7a78"/><text x="62" y="307" fill="#37342f">"Coming off the shot</text><text x="62" y="324" fill="#37342f">without gaining it back"</text>
+  </g>
+  <text x="169" y="352" text-anchor="middle" class="fig" font-size="12.5" font-style="italic" fill="#a8a29a">same quiz opens under every one</text>
+
+  <!-- converge arrows doors -> funnel mouth (mouth top x430..830 @y176) -->
   <g fill="none" stroke="#d8b3a4" stroke-width="2">
-    <path d="M290 108 C 360 108, 380 165, 470 168" marker-end="url(#arr)"/>
-    <path d="M290 172 C 360 172, 400 168, 470 172" marker-end="url(#arr)"/>
-    <path d="M290 236 C 360 236, 420 185, 470 176" marker-end="url(#arr)"/>
-    <path d="M290 300 C 380 300, 430 195, 470 182" marker-end="url(#arr)"/>
+    <path d="M298 105 C 380 105, 400 176, 468 178" marker-end="url(#arr)"/>
+    <path d="M298 173 C 380 173, 410 180, 468 184" marker-end="url(#arr)"/>
+    <path d="M298 241 C 380 241, 420 196, 468 190" marker-end="url(#arr)"/>
+    <path d="M298 309 C 390 309, 430 205, 468 196" marker-end="url(#arr)"/>
   </g>
 
-  <!-- ===== FUNNEL ===== top x430..830 @y168 ; bottom x560..700 @y620 -->
-  <path d="M430 168 L830 168 L700 620 L560 620 Z" fill="url(#fun)" opacity="0.12"/>
-  <path d="M430 168 L830 168 L700 620 L560 620 Z" fill="none" stroke="#c85f3d" stroke-width="1.5" opacity="0.4"/>
+  <!-- ===== FUNNEL: top x430..830 @y176 ; bottom x556..704 @y708 ===== -->
+  <path d="M430 176 L830 176 L704 708 L556 708 Z" fill="url(#fun)" opacity="0.12"/>
+  <path d="M430 176 L830 176 L704 708 L556 708 Z" fill="none" stroke="#c85f3d" stroke-width="1.5" opacity="0.4"/>
 
   <g class="fig">
-    <!-- A quiz start -->
-    <text x="630" y="212" text-anchor="middle" font-size="21" font-weight="700" fill="#c85f3d">The quiz starts</text>
-    <text x="630" y="235" text-anchor="middle" font-size="15" fill="#8a6f60">one quiz under every door</text>
-    <line x1="486" y1="256" x2="774" y2="256" stroke="#c85f3d" stroke-width="1" opacity="0.25"/>
-    <!-- B diagnosis -->
-    <text x="630" y="298" text-anchor="middle" font-size="21" font-weight="700" fill="#c85f3d">She's read back to herself</text>
-    <text x="630" y="320" text-anchor="middle" font-size="15" fill="#8a6f60">names her pattern, shows the fix</text>
-    <text x="630" y="341" text-anchor="middle" font-size="14" font-style="italic" fill="#b08a7c">this is where the selling happens</text>
-    <line x1="506" y1="360" x2="754" y2="360" stroke="#c85f3d" stroke-width="1" opacity="0.25"/>
-    <!-- C GATE -->
-    <rect x="500" y="374" width="260" height="48" rx="10" fill="#c99a3d"/>
-    <text x="630" y="397" text-anchor="middle" font-size="16.5" font-weight="700" fill="#fff">EMAIL GATE</text>
-    <text x="630" y="414" text-anchor="middle" font-size="14" fill="#fdf3dd">unlocks her result</text>
-    <line x1="524" y1="440" x2="736" y2="440" stroke="#c85f3d" stroke-width="1" opacity="0.25"/>
-    <!-- D JJ moment -->
-    <text x="630" y="482" text-anchor="middle" font-size="21" font-weight="700" fill="#b5714e">The JJ moment</text>
-    <text x="630" y="504" text-anchor="middle" font-size="16.5" fill="#8a6f60">we test where it converts best</text>
-    <line x1="542" y1="524" x2="718" y2="524" stroke="#c85f3d" stroke-width="1" opacity="0.25"/>
-    <!-- E offer -->
-    <text x="630" y="566" text-anchor="middle" font-size="21" font-weight="700" fill="#4d7a78">Offer &amp; checkout</text>
-    <text x="630" y="588" text-anchor="middle" font-size="15" fill="#7a8a6d">already sold, just make it easy</text>
+    <!-- A quiz starts (y176..250) -->
+    <text x="630" y="214" text-anchor="middle" font-size="21" font-weight="700" fill="#c85f3d">The quiz starts</text>
+    <text x="630" y="238" text-anchor="middle" font-size="15" fill="#8a6f60">one quiz under every angle</text>
+    <line x1="470" y1="256" x2="790" y2="256" stroke="#c85f3d" stroke-width="1" opacity="0.25"/>
+
+    <!-- B read back / result gate teaser (y256..330) -->
+    <text x="630" y="292" text-anchor="middle" font-size="21" font-weight="700" fill="#c85f3d">She's read back to herself</text>
+    <text x="630" y="315" text-anchor="middle" font-size="15" fill="#8a6f60">her own words, no label yet</text>
+    <line x1="488" y1="332" x2="772" y2="332" stroke="#c85f3d" stroke-width="1" opacity="0.25"/>
+
+    <!-- GATE (y344..392) -->
+    <rect x="500" y="344" width="260" height="48" rx="10" fill="#c99a3d"/>
+    <text x="630" y="367" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">EMAIL GATE</text>
+    <text x="630" y="384" text-anchor="middle" font-size="13" fill="#fdf3dd">email unlocks the breakdown</text>
+
+    <!-- C THE DIAGNOSIS (y392..478) -- the missing band, now present -->
+    <text x="630" y="428" text-anchor="middle" font-size="21" font-weight="700" fill="#a8531f">The full diagnosis</text>
+    <text x="630" y="451" text-anchor="middle" font-size="15" fill="#8a6f60">her pattern, from her answers</text>
+    <text x="630" y="472" text-anchor="middle" font-size="13.5" font-style="italic" fill="#b08a7c">the real selling happens here</text>
+    <line x1="536" y1="488" x2="724" y2="488" stroke="#c85f3d" stroke-width="1" opacity="0.25"/>
+
+    <!-- D JJ moment (y488..562) -->
+    <text x="630" y="524" text-anchor="middle" font-size="21" font-weight="700" fill="#b5714e">The JJ moment</text>
+    <text x="630" y="547" text-anchor="middle" font-size="15" fill="#8a6f60">placement we test</text>
+    <line x1="560" y1="562" x2="700" y2="562" stroke="#c85f3d" stroke-width="1" opacity="0.25"/>
+
+    <!-- E offer (y562..708) -->
+    <text x="630" y="606" text-anchor="middle" font-size="21" font-weight="700" fill="#4d7a78">Offer &amp; checkout</text>
+    <text x="630" y="629" text-anchor="middle" font-size="15" fill="#7a8a6d">already sold</text>
   </g>
 
   <!-- purchase out bottom -->
-  <path d="M630 620 L630 656" fill="none" stroke="#4d7a78" stroke-width="2.5" marker-end="url(#arrTeal)"/>
-  <rect x="556" y="660" width="148" height="42" rx="12" fill="#4d7a78"/>
-  <text x="630" y="686" text-anchor="middle" class="fig" font-size="16.5" font-weight="700" fill="#fff">She buys</text>
+  <path d="M630 708 L630 744" fill="none" stroke="#4d7a78" stroke-width="2.5" marker-end="url(#arrTeal)"/>
+  <rect x="556" y="748" width="148" height="44" rx="12" fill="#4d7a78"/>
+  <text x="630" y="775" text-anchor="middle" class="fig" font-size="16" font-weight="700" fill="#fff">She buys</text>
 
-  <!-- ===== MEASUREMENT RAIL (left spine, x=340) ===== -->
-  <line x1="340" y1="168" x2="340" y2="620" stroke="#4d7a78" stroke-width="2.5"/>
-  <text x="340" y="150" text-anchor="middle" class="fig" font-size="13.5" font-weight="700" letter-spacing="1" fill="#4d7a78">MEASURE</text>
-  <g fill="#4d7a78" class="fig">
-    <circle cx="340" cy="212" r="4.5"/><circle cx="340" cy="304" r="4.5"/><circle cx="340" cy="398" r="4.5"/><circle cx="340" cy="482" r="4.5"/><circle cx="340" cy="566" r="4.5"/>
+  <!-- ===== MEASUREMENT RAIL (left spine x=356) ===== -->
+  <line x1="356" y1="176" x2="356" y2="708" stroke="#4d7a78" stroke-width="2.5"/>
+  <text x="356" y="158" text-anchor="middle" class="fig" font-size="13" font-weight="700" letter-spacing="1" fill="#4d7a78">MEASURE</text>
+  <g fill="#4d7a78">
+    <circle cx="356" cy="214" r="4.5"/><circle cx="356" cy="292" r="4.5"/><circle cx="356" cy="368" r="4.5"/><circle cx="356" cy="428" r="4.5"/><circle cx="356" cy="524" r="4.5"/><circle cx="356" cy="606" r="4.5"/>
   </g>
-  <!-- tick connectors from rail to funnel + tiny labels to the LEFT of rail -->
   <g fill="none" stroke="#9cb5b3" stroke-width="1.5" stroke-dasharray="3 3">
-    <path d="M340 212 L470 212"/><path d="M340 304 L486 304"/><path d="M340 398 L500 398"/><path d="M340 482 L516 482"/><path d="M340 566 L560 566"/>
+    <path d="M356 214 L468 214"/><path d="M356 292 L484 292"/><path d="M356 368 L500 368"/><path d="M356 428 L512 428"/><path d="M356 524 L560 524"/><path d="M356 606 L576 606"/>
   </g>
-  <g class="fig" font-size="13.5" fill="#5f7a78" text-anchor="end">
-    <text x="326" y="205">start rate</text><text x="326" y="219">per angle</text>
-    <text x="326" y="300">drop-off +</text><text x="326" y="314">pattern mix</text>
-    <text x="326" y="401">lead count</text>
-    <text x="326" y="485">demo test</text>
-    <text x="326" y="562">buy rate</text><text x="326" y="576">by angle</text>
+  <g class="fig" font-size="13" fill="#5f7a78" text-anchor="end">
+    <text x="342" y="210">start rate</text><text x="342" y="225">per angle</text>
+    <text x="342" y="296">drop-off,</text><text x="342" y="311">pattern mix</text>
+    <text x="342" y="372">lead count</text>
+    <text x="342" y="424">reads through</text><text x="342" y="439">to offer</text>
+    <text x="342" y="520">demo</text><text x="342" y="535">placement</text>
+    <text x="342" y="602">buy rate</text><text x="342" y="617">by angle</text>
   </g>
 
-  <!-- ===== GATE -> LEAD WE OWN (clean right branch) ===== -->
-  <path d="M760 398 L868 398" fill="none" stroke="#c99a3d" stroke-width="2.5" marker-end="url(#arrGold)"/>
-  <rect x="872" y="360" width="268" height="78" rx="14" fill="#fff" stroke="#c99a3d" stroke-width="2"/>
-  <text x="1006" y="388" text-anchor="middle" class="fig" font-size="16.5" font-weight="700" fill="#8a6d28">Every visitor = a lead we own</text>
-  <text x="1006" y="409" text-anchor="middle" class="fig" font-size="14" fill="#9a8340">tagged: her pain, her pattern,</text>
-  <text x="1006" y="425" text-anchor="middle" class="fig" font-size="14" fill="#9a8340">what she tried, her goal</text>
+  <!-- ===== GATE -> LEAD WE OWN ===== -->
+  <path d="M760 368 L868 368" fill="none" stroke="#c99a3d" stroke-width="2.5" marker-end="url(#arrGold)"/>
+  <rect x="872" y="330" width="268" height="80" rx="14" fill="#fff" stroke="#c99a3d" stroke-width="2"/>
+  <text x="1006" y="360" text-anchor="middle" class="fig" font-size="16.5" font-weight="700" fill="#8a6d28">Every visitor = a lead we own</text>
+  <text x="1006" y="382" text-anchor="middle" class="fig" font-size="14" fill="#9a8340">tagged: her pain, her pattern,</text>
+  <text x="1006" y="399" text-anchor="middle" class="fig" font-size="14" fill="#9a8340">what she tried, her goal</text>
+  <text x="1006" y="440" text-anchor="middle" class="fig" font-size="13" fill="#7a8a6d">didn't buy? she's not lost</text>
 
-  <!-- ===== NURTURE LOOP (right side up to top) ===== -->
-  <path d="M1006 360 C 1006 200, 1006 96, 900 90 L 520 90" fill="none" stroke="#7a8a6d" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#arrG)"/>
-  <rect x="512" y="70" width="276" height="40" rx="11" fill="#eef1ea" stroke="#7a8a6d" stroke-width="1.5"/>
-  <text x="650" y="88" text-anchor="middle" class="fig" font-size="15" font-weight="700" fill="#5f6e53">Bring-back loop</text>
-  <text x="650" y="103" text-anchor="middle" class="fig" font-size="13" fill="#7a8a6d">non-buyers re-approached by pattern</text>
-  <text x="1004" y="470" text-anchor="middle" class="fig" font-size="13.5" fill="#7a8a6d">didn't buy? she's not lost</text>
-
+  <!-- ===== NURTURE LOOP back to top ===== -->
+  <path d="M1006 330 C 1006 180, 1006 92, 900 86 L 528 86" fill="none" stroke="#7a8a6d" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#arrG)"/>
+  <rect x="520" y="66" width="276" height="40" rx="11" fill="#eef1ea" stroke="#7a8a6d" stroke-width="1.5"/>
+  <text x="658" y="84" text-anchor="middle" class="fig" font-size="15" font-weight="700" fill="#5f6e53">Bring-back loop</text>
+  <text x="658" y="99" text-anchor="middle" class="fig" font-size="13" fill="#7a8a6d">non-buyers re-approached by pattern</text>
 </svg>
 
   <div class="diagram-label">What each part actually is</div>
@@ -193,8 +202,8 @@
     <div class="row">
       <div class="rownum"><div class="bub" style="background:var(--a1);">1</div><div class="stem"></div></div>
       <div class="rowbody" style="--rc:var(--a1);">
-        <h3>Traffic: content + ads, many angles</h3>
-        <div class="what">JJ's own <strong>content</strong> and paid <strong>Meta ads</strong> bring in women 40+. Each post or ad leads with a different pain (belly fat, menopause weight, tried everything, coming off the shot). Many angles, aimed at different women.</div>
+        <h3>Traffic: content + ads, several angles</h3>
+        <div class="what">JJ's own <strong>content</strong> and paid <strong>Meta ads</strong> bring in women 40+. Each post or ad leads with a different pain ("why losing weight after 40 feels impossible," "you've tried everything," "the weight at your middle," "coming off the shot"). <strong>Each angle opens a landing page that matches that exact message</strong>, so the promise she clicked is the promise she lands on.</div>
         <div class="measure"><span class="mk">Measure</span> spend, reach, and click rate per angle. Which pains bring the cheapest, best traffic.</div>
       </div>
     </div>
@@ -203,7 +212,7 @@
       <div class="rownum"><div class="bub" style="background:var(--a2);">2</div><div class="stem"></div></div>
       <div class="rowbody" style="--rc:var(--a2);">
         <h3>One quiz under every angle</h3>
-        <div class="what">Every angle carries into a matching hook, then drops her into the <strong>same quiz underneath</strong>. The angle changes; the engine does not. So we get dozens of tailored funnels at the build cost of one.</div>
+        <div class="what">Every angle's landing page opens the <strong>same quiz underneath</strong>. The angle and the page change; the engine does not. So we get dozens of tailored funnels at the build cost of one.</div>
         <div class="measure"><span class="mk">Measure</span> how many who land actually start the quiz, per angle. Scale the angles that pull people in.</div>
       </div>
     </div>
@@ -211,8 +220,8 @@
     <div class="row">
       <div class="rownum"><div class="bub" style="background:var(--accent-strong);">3</div><div class="stem"></div></div>
       <div class="rowbody" style="--rc:var(--accent-strong);">
-        <h3>The quiz, where the selling happens</h3>
-        <div class="what">A one-minute quiz. She answers, feels understood, and gets a real read on <strong>why</strong> she has been stuck (one of nine patterns). It then shows how JJ fixes <strong>her</strong> specific pattern. The diagnosis does the selling, because it is true and it lifts the blame off her. No hard pitch.</div>
+        <h3>The quiz, then she's read back to herself</h3>
+        <div class="what">A one-minute quiz. She answers and feels understood along the way. At the end she is <strong>shown her own words back</strong> with a curiosity gap, but <strong>not the answer yet</strong>. No pattern name here. That is what makes her want to unlock the full breakdown.</div>
         <div class="measure"><span class="mk">Measure</span> completion, which questions lose people, and which patterns our traffic skews to.</div>
       </div>
     </div>
@@ -227,7 +236,16 @@
     </div>
 
     <div class="row">
-      <div class="rownum"><div class="bub" style="background:var(--a3);">4</div><div class="stem"></div></div>
+      <div class="rownum"><div class="bub" style="background:#a8531f;">4</div><div class="stem"></div></div>
+      <div class="rowbody" style="--rc:#a8531f;">
+        <h3>The full diagnosis, where the real selling happens</h3>
+        <div class="what">Once she is in, she gets the real thing: a <strong>diagnosis composed from her own answers</strong> that names her pattern (one of nine) and explains why she has been stuck, then shows how JJ fixes <strong>her</strong> specific pattern. It is delivered <strong>in full before any offer</strong>. The diagnosis does the selling, because it is true and it lifts the blame off her. No hard pitch.</div>
+        <div class="measure"><span class="mk">Measure</span> how many read the diagnosis through to the offer, by pattern.</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="rownum"><div class="bub" style="background:var(--a3);">5</div><div class="stem"></div></div>
       <div class="rowbody" style="--rc:var(--a3);">
         <h3>The JJ moment: a placement test</h3>
         <div class="what">At some point she gets to <strong>experience JJ herself</strong> (the "JJ in your pocket" demo), turning "this sounds good" into "she really is there." <strong>Where it works best is something we test</strong>: right before the price, earlier in the flow, or not at all. We put it where it converts, we do not assume.</div>
@@ -236,7 +254,7 @@
     </div>
 
     <div class="row">
-      <div class="rownum"><div class="bub" style="background:var(--a4);">5</div><div class="stem"></div></div>
+      <div class="rownum"><div class="bub" style="background:var(--a4);">6</div><div class="stem"></div></div>
       <div class="rowbody" style="--rc:var(--a4);">
         <h3>The offer &amp; checkout</h3>
         <div class="what">The product, the price, the guarantee. She arrives <strong>already sold by the diagnosis</strong>, so the offer's only job is to make deciding easy and safe. A low entry price leads, with a pay-in-full option. (Prices still to be finalized.)</div>
