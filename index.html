@@ -145,16 +145,16 @@
     <div>
       <div class="bt-kick">Diagram 1 of 3</div>
       <h2>The full engine</h2>
-      <div class="bt-sub">All five traffic sources, both funnels, both offers, and what happens to the people who do not buy. <strong>The whole plan on one screen.</strong> The two funnels below are the same picture, in detail.</div>
+      <div class="bt-sub">All five traffic sources, both funnels, both offers, and what happens to the people who do not buy. <strong>The whole plan on one screen.</strong> Diagrams 2 and 3, further down, break each of the two funnels into its own step by step view.</div>
     </div>
   </div>
 <div class="legend">
     <div class="li"><span class="sw" style="background:var(--warmest);"></span> Warm traffic (she knows JJ)</div>
     <div class="li"><span class="sw" style="background:var(--cold);"></span> Cold traffic (she does not)</div>
     <div class="li"><span class="sw" style="background:var(--asset);"></span> The challenge angle &amp; owned leads</div>
-    <div class="li"><span class="sw" style="background:var(--nurture);"></span> Bring-back loop</div>
+    <div class="li"><span class="sw" style="background:var(--nurture);"></span> Re-targeting them back</div>
   </div>
-  <svg class="stage-svg" viewBox="0 0 1180 810" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The engine. Five traffic sources split by temperature. Warm sources go straight to the landing pages, which run two angles: the ongoing angle and the dated challenge angle. Cold sources go to the quiz funnel, which diagnoses and captures the lead before offering. Both angles lead to two offers: the monthly subscription at 1.57 a day, and the challenge, which adds a pay in full option for the best lifetime value. Everyone who does not buy becomes an owned lead, and the bring-back loop is monetized with seasonal challenge launches.">
+  <svg class="stage-svg" viewBox="0 0 1260 810" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The engine. Five traffic sources split by temperature. Warm sources go straight to the landing pages, which run two angles: the ongoing angle and the dated challenge angle. Cold sources go to the quiz funnel, which diagnoses and captures the lead before offering. Both angles lead to two offers: the monthly subscription at 1.57 a day, and the challenge, which adds a pay in full option for the best lifetime value. Everyone who does not buy becomes an owned lead, and the bring-back loop is monetized with seasonal challenge launches.">
   <defs>
     <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c98f7a"/></marker>
     <marker id="arrC" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4d7a78"/></marker>
@@ -291,10 +291,13 @@
   <text x="652" y="748" font-size="12.5" fill="#6f6a63" font-family="Inter" text-anchor="middle">Every non-buyer. Email + SMS.</text>
   <text x="652" y="768" font-size="12.5" font-weight="600" fill="#8a6d28" font-family="Inter" text-anchor="middle">The asset that compounds.</text>
 
-  <rect x="852" y="700" width="212" height="86" rx="13" fill="#fff" stroke="#cbd6c4" stroke-width="1.5"/>
-  <text class="fig" x="958" y="727" font-size="14" font-weight="800" fill="#5f7052" text-anchor="middle">BRING THEM BACK</text>
-  <text x="958" y="748" font-size="12.5" fill="#6f6a63" font-family="Inter" text-anchor="middle">Seasonal challenge launches</text>
-  <text x="958" y="768" font-size="12.5" fill="#6f6a63" font-family="Inter" text-anchor="middle">3 to 4 times a year</text>
+  <rect x="852" y="688" width="212" height="110" rx="13" fill="#fff" stroke="#cbd6c4" stroke-width="1.5"/>
+  <text class="fig" x="958" y="713" font-size="14" font-weight="800" fill="#5f7052" text-anchor="middle">WE TARGET THEM AGAIN</text>
+  <text x="958" y="734" font-size="12" fill="#6f6a63" font-family="Inter" text-anchor="middle">Email, SMS, retargeting ads.</text>
+  <text x="958" y="754" font-size="12" fill="#6f6a63" font-family="Inter" text-anchor="middle">Either offer, whenever it fits.</text>
+  <line x1="874" y1="765" x2="1042" y2="765" stroke="#e0e8dc"/>
+  <text x="958" y="783" font-size="11.5" font-weight="600" fill="#5f7052" font-family="Inter" text-anchor="middle">Quiz leads: we know her exact</text>
+  <text x="958" y="797" font-size="11.5" font-weight="600" fill="#5f7052" font-family="Inter" text-anchor="middle">problem, so we target precisely.</text>
 
   <!-- ARROWS -->
   <path d="M250 166 C268 166 268 195 284 205" stroke="#c98f7a" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
@@ -321,8 +324,11 @@
   <text class="fig" x="706" y="668" font-size="10.5" font-weight="700" fill="#b8912f">every quiz taker</text>
 
   <path d="M806 743 L848 743" stroke="#7a8a6d" stroke-width="2.4" fill="none" marker-end="url(#arrG)"/>
-  <path d="M1064 735 C1112 735 1116 500 1070 452" stroke="#7a8a6d" stroke-width="2.6" fill="none" marker-end="url(#arrG)"/>
-  <text class="fig" x="1105" y="600" font-size="10.5" font-weight="700" fill="#5f7052" transform="rotate(-90 1105 600)" text-anchor="middle">the list buys the challenge</text>
+  <!-- return path: feeds BOTH offers -->
+  <path d="M1064 742 C1108 742 1118 700 1118 660 L1118 226" stroke="#7a8a6d" stroke-width="2.6" fill="none"/>
+  <path d="M1118 392 L1072 392" stroke="#7a8a6d" stroke-width="2.6" fill="none" marker-end="url(#arrG)"/>
+  <path d="M1118 226 L1072 226" stroke="#7a8a6d" stroke-width="2.6" fill="none" marker-end="url(#arrG)"/>
+  <text class="fig" x="1146" y="530" font-size="10.5" font-weight="700" fill="#5f7052" transform="rotate(-90 1146 530)" text-anchor="middle">they come back and buy, either offer</text>
 
   </svg>
   <div class="diagram-label">The pages, live</div>
